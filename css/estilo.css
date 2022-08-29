@@ -30,6 +30,10 @@ a:hover {
 	background: url(../img/logo.png) no-repeat;
 }
 
+h1 {
+	float: left;
+}
+
 /* Barra de navegação
 -----------------------------------------*/
 
@@ -58,4 +62,25 @@ nav ul li a {
 
 nav ul li a:hover {
 	border-bottom: 1px solid #585858;
+}
+
+/* Principal
+-------------------------------------------------------*/
+
+#conteudo {
+	width: 710px;
+	float: left;
+	
+}
+
+aside {
+	width: 350px;
+	float: right;
+	background: #ebe7dd;
+}
+
+section#visita {
+	background: #cdc8b1;
+	padding: 10px 27px 27px 27px;
+	margin-top: 10px;
 }
